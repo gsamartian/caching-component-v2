@@ -1,0 +1,12 @@
+#Port the service listens for requests
+server:
+  port: 9030
+
+
+management:
+  endpoints:
+    web:
+      base-path: /       
+eureka:
+  client:
+    enabled: false
